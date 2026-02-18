@@ -1,0 +1,46 @@
+Stock Addition is the feature in the AGRIS Warehouse app, below I am sharing and adding Development Jira Ticket:
+DEscription:
+Workflow:
+
+1. Warehouse PRO user logs into the app and is required to select the Vendor ID Range before continuing with a Stock Addition.  Message should appear saying that they cannot do a Stock Addition without going to Settings and selecting a Vendor ID Range.
+
+2. The user must first take a photo of the BOL form by either accessing their camera or selecting a list of existing images from their gallery.
+
+3. They can either confirm, delete, or add more photos.  Otherwise they can hit continue to move to the next step.
+**Photos need to be uploaded to AttachToo with the Voucher as a sub-document.  Document Type needs to be discussed.
+
+4. The User will be able to search for the Vendor by either entering Name, Name ID, City, or Phone Number and select from an available list of Vendors.
+
+5. The User can confirm Vendor Selection and hit continue to move on to Item Selection
+**Remit To should be based on what is selected for the Vendor automatically but should not be visible to the user
+
+6. User should be able to search for an item using the barcode scanner or by entering in item information to pull a list of relevant items
+
+7. Once an item is selected should take user to a new page that will allow them to enter the qty and view the UOM
+**If the item requires a lot number or specification fields like LOT# those should appear below the quantity and be required to enter before continuing.
+
+8. Once User completes the first item they should be taken to an item information page where they can choose to: delete or edit an item they entered; add another item to the stock addition; or continue to the next screen.
+
+9. If required* User will need to enter Transaction Fields which are customizable based on setup in AGRIS and configuration setup in Action List
+
+10. User will be required to enter the BOL # and can choose to enter Voucher Description and Remarks
+
+10. User will be taken to a Summary page where they can review the following: Vendor Information; BOL Photos; Item Information; BOL #; Voucher Description; and Remarks
+**User will need to scroll down to the bottom of the page in order to Submit the voucher 
+
+11. Once Submitted, User will view a confirmation and Voucher # from AGRIS
+
+
+ACCEPTANCE CRITERIA:
+1. Warehouse Pro users only can access Stock Addition feature
+2. User can access a list of vendor names to add Stock Addition information
+3. The user can look up the list of items based on Location ID and/or Barcode Scan
+4. Barcode scan can return information about the item
+5. The user can enter additional item information
+6. The user can review the final Voucher information and go back to make changes if need be
+7. Once the voucher is submitted in App, it needs to return to Agris as a copy and paste and generate an automatic voucher number
+
+
+Flow Screenshot:
+
+
