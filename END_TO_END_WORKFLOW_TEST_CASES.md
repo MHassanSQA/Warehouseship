@@ -1551,5 +1551,5 @@ For creating new E2E workflow tests, use this template:
 
 **Document Version**: 1.0  
 **Total Workflows Documented**: 18  
-**Total Estimated Execution Time**: ~200 minutes (3-4 hours)  
+**Total Estimated Execution Time**: ~265 minutes (4-5 hours maximum, 3-4 hours typical)  
 **Recommended Test Cycles**: 2 full cycles before production release
