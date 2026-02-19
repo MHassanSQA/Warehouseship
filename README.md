@@ -26,6 +26,15 @@ This repository contains documentation for the Stock Addition feature of the AGR
   - Potential enhancements
 
 ### Test Documentation
+- **[END_TO_END_WORKFLOW_TEST_CASES.md](END_TO_END_WORKFLOW_TEST_CASES.md)** - **NEW!** Complete end-to-end workflow test cases:
+  - 18 comprehensive E2E workflow scenarios
+  - Happy path, alternative path, and error recovery workflows
+  - Multi-user and multi-device scenarios
+  - Performance and data integrity validation
+  - Complete user journey testing (5-30 minutes per workflow)
+  - Estimated 4-5 hours maximum execution time (3-4 hours typical)
+  - Business scenario validation
+
 - **[REGRESSION_TEST_CASES.md](REGRESSION_TEST_CASES.md)** - Comprehensive test suite with 60+ test cases:
   - Functional testing (all UI modules)
   - Integration testing (AGRIS ERP & AttachToo)
