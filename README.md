@@ -25,6 +25,22 @@ This repository contains documentation for the Stock Addition feature of the AGR
   - Testing considerations
   - Potential enhancements
 
+### Test Documentation
+- **[REGRESSION_TEST_CASES.md](REGRESSION_TEST_CASES.md)** - Comprehensive test suite with 60+ test cases:
+  - Functional testing (all UI modules)
+  - Integration testing (AGRIS ERP & AttachToo)
+  - Performance testing
+  - Security testing
+  - Test data requirements
+  - Defect templates
+
+- **[TEST_CHECKLIST.md](TEST_CHECKLIST.md)** - Quick reference checklist:
+  - Critical path testing
+  - High/medium priority tests
+  - Device testing matrix
+  - Test execution schedule
+  - Sign-off criteria
+
 ### Quick Reference
 The Stock Addition feature enables warehouse PRO users to:
 - Capture BOL (Bill of Lading) photos
@@ -33,3 +49,15 @@ The Stock Addition feature enables warehouse PRO users to:
 - Enter quantities and lot numbers
 - Submit vouchers to AGRIS ERP
 - Receive auto-generated voucher numbers
+
+### UI Screenshots
+The documentation includes **49 mobile UI screenshots** showing:
+- Settings and vendor ID range configuration
+- Photo capture and gallery selection
+- Vendor search interface
+- Item scanning and selection
+- Lot number entry screens
+- Transaction codes input
+- BOL information entry
+- Summary and review screen
+- Submission confirmation
